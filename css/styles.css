@@ -10,8 +10,10 @@
 
 /* Стили для всей страницы */
 body {
+
     background-color: #282828; /* Цвет фона */
     border: 1px solid #2f00ff; /* Рамка вокруг body */
+    color: #afafaf;
 }
 
 /* Стили для верхней панели */
@@ -23,6 +25,9 @@ body {
     height: 56px;
     position: sticky;
     top: 0;
+    width: 100%;
+    
+
 }
 
 /* Стили для панели навигации */
@@ -31,12 +36,11 @@ body {
     display: flex; 
     align-items: center;
     justify-content: space-between;
-    border: 0.01px solid #faf8f8; /* Рамка вокруг панели навигации */
-
+    border: 0.01px solid #faf8f8; /* Рамка вокруг панели навигаци */
     height: 100%;
 }
 
-.nav-panel a{
+.nav-panel a, span{
     color: #c2c2c2;
 }
 
@@ -54,11 +58,116 @@ body {
 
 
 
-.main{
-    margin: 0 50px;
-    padding: 16px;
+.mein{
     border: 0.2px solid #7fbd7f;
-    height: 500px;
+    width: 100%;
+    max-width: 2440px;
+    margin: 0 auto;
+    padding: 16px 22px 0 22px;
+    
 }
 
+
+@media screen and (min-width:760px) {
+    .mein{
+        width: 100%;
+        max-width: 760px;
+    }
+}
+
+@media screen and (min-width:1300px) {
+    .mein{
+        width: 100%;
+        max-width: 1280px;
+    }
+}
+
+@media screen and (min-width:1920px) {
+    .mein{
+        width: 100%;
+        max-width: 1600px;
+    }
+}
+
+@media screen and (min-width:2560px) {
+    .mein{
+        width: 100%;
+        max-width: 1940px;
+    }
+}
+
+.movie{
+    border: 0.2px solid #b17fbd;
+    margin-bottom: 22px;
+    height: 280px;
+
+}
+
+.headlinemovie{
+    border: 0.2px solid #b17fbd;
+    padding: 16px;
+    
+}
+.headlinemovie a{
+    color: #c1b6a3;
+    width: 147px;
+    padding: 6px 16px;
+}
+.spismov{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 16px;
+}
+
+.spismov article{
+    border: 0.2px solid #b17fbd;
+    margin: 0 0 30px 16px;
+    width: 150px;
+    height: 225px;
+    
+}
+
+
+
+
+
+
+
+
+.series{
+    border: 0.2px solid #8c7fbd;
+    margin-bottom: 22px;
+    height: 280px; 
+}
+
+.series-on-tv{
+    border: 0.2px solid #b17fbd;
+    padding: 16px;
+    
+}
+.series-on-tv a{
+    color: #c1b6a3;
+    width: 147px;
+    padding: 6px 16px;
+}
+.spisseries{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 16px;
+}
+.spisseries article{
+    border: 0.2px solid #b17fbd;
+    margin: 0 0 30px 16px;
+    width: 150px;
+    height: 225px;
+    
+}
+
+.watching{
+    border: 0.2px solid #8c7fbd;
+    margin-bottom: 22px;
+    height: 280px; 
+}
   
