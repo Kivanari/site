@@ -30,34 +30,57 @@ body {
 
 }
 
+
+/* ------------------------------------топ меню---------------------------------- */
 /* Стили для панели навигации */
 .nav-panel{
     
     display: flex; 
     align-items: center;
     justify-content: space-between;
-    border: 0.01px solid #faf8f8; /* Рамка вокруг панели навигаци */
+    /*border: 0.01px solid #faf8f8;*/ /* Рамка вокруг панели навигаци */
     height: 100%;
 }
 
+/* цвет ссылок */
 .nav-panel a, span{
     color: #c2c2c2;
 }
 
+/* панель навигации внутр */
 .nav-panel div{
-    border: 0.1px solid #00aeff;
+    /* border: 0.1px solid #00aeff; */
     font-size: 22px;
     
 }
 
+/* лого и главная с выпад меню*/
 .menu-logo{
     display: flex;
     align-items: center;
 }
 
+/* выпадающее меню */
+.drop-menu{
+    padding-left: 15px;
+}
 
+/* окно поиска */
+.search-bar{
+    width: 500px;
+    
+}
+.search-input{
+    background-color: #353536;
+    border: 0;
+    
+    height: 30px;
+    width: 100%;
+}
 
+/* ------------------------------------------------------------------------------- */
 
+/* основная часть сайта */
 .mein{
     border: 0.2px solid #7fbd7f;
     width: 100%;
@@ -67,7 +90,7 @@ body {
     
 }
 
-
+/* -------------------------------медиа запросы----------------------------------- */
 @media screen and (min-width:760px) {
     .mein{
         width: 100%;
@@ -95,7 +118,12 @@ body {
         max-width: 1940px;
     }
 }
+/* --------------------------------------------------------------------------------- */
 
+
+
+
+/* ------------------------------Фильмы------------------------------- */
 .movie{
     border: 0.2px solid #b17fbd;
     margin-bottom: 22px;
@@ -115,7 +143,7 @@ body {
 }
 .spismov{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     padding-right: 16px;
 }
@@ -128,13 +156,12 @@ body {
     
 }
 
+/* ---------------------------------------------------------------- */
 
 
 
 
-
-
-
+/* ----------------------------Сериалы------------------------------------ */
 .series{
     border: 0.2px solid #8c7fbd;
     margin-bottom: 22px;
@@ -153,7 +180,7 @@ body {
 }
 .spisseries{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     padding-right: 16px;
 }
@@ -165,9 +192,26 @@ body {
     
 }
 
+
+
+/* ----------------------------Смотрю------------------------------------ */
 .watching{
     border: 0.2px solid #8c7fbd;
     margin-bottom: 22px;
     height: 280px; 
+
+}
+
+.continue-watching{
+    border: 0.2px solid #be34ec;
+    padding: 16px;
+
+}
+
+.continue-watching a{
+    color: #c1b6a3;
+    width: 147px;
+    padding: 6px 16px;
+
 }
   
