@@ -130,7 +130,9 @@ body {
     height: 280px;
 
 }
-
+/* .film-on-tv{
+    border: 0.2px solid #d63751;
+} */
 .headlinemovie{
     border: 0.2px solid #b17fbd;
     padding: 16px;
@@ -150,7 +152,7 @@ body {
 
 .spismov article{
     border: 0.2px solid #b17fbd;
-    margin: 0 0 30px 16px;
+    margin: 0 0 0 16px;
     width: 150px;
     height: 225px;
     
@@ -186,7 +188,7 @@ body {
 }
 .spisseries article{
     border: 0.2px solid #b17fbd;
-    margin: 0 0 30px 16px;
+    margin: 0 0 0 16px;
     width: 150px;
     height: 225px;
     
